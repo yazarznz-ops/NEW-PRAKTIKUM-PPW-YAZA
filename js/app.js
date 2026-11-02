@@ -4,6 +4,7 @@
  */
 
 //Deklarasikan endpoint API 
+<<<<<<< HEAD
 const API_URL = 'api/mahasiswa.p// 1. // 1. Seleksi Elemen DOM Utama
 const tabelBody = document.getElementById('tabel-body-mahasiswa');
 const inputSearch = document.getElementById('input-search');
@@ -64,6 +65,9 @@ async function loadMahasiswa(keyword = '') {
         `;
     }
 }
+=======
+const API_URL = 'api/mahasiswa.p// 1. 
+>>>>>>> 3455786e7292559ec56590555e815e1de12df3f9
 
 // 3. Render Baris Tabel Dinamis ke DOM
 function renderTable(mahasiswaList = [], keyword = '') {
